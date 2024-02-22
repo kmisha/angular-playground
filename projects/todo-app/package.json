@@ -1,6 +1,6 @@
 {
-  "name": "@kmisha/angular-todo-app",
+  "name": "@kmisha/todo-app",
   "version": "1.0.0",
-  "description": "Angular project to track my todos",
+  "description": "Angular project to track my tasks",
   "keywords": ["Angular", "TODO"]
 }
