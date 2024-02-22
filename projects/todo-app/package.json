@@ -2,5 +2,11 @@
   "name": "@kmisha/todo-app",
   "version": "1.0.0",
   "description": "Angular project to track my tasks",
-  "keywords": ["Angular", "TODO"]
+  "keywords": [
+    "Angular",
+    "TODO"
+  ],
+  "devDependencies": {
+    "@angular/cli": "^17.2.0"
+  }
 }
