@@ -1,9 +1,10 @@
 {
   "name": "@kmisha/angular-playground",
-  "version": "1.0.0",
+  "private": true,
   "description": "Collection of Angular projects",
   "keywords": [
-    "Angular"
+    "Angular",
+    "Playground"
   ],
   "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
   "license": "MIT",
