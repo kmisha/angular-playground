@@ -1,10 +1,10 @@
 {
-  "name": "@kmisha/angular-playground",
   "private": true,
-  "description": "Collection of Angular projects",
+  "description": "Collection of Frontend projects",
   "keywords": [
     "Angular",
-    "Playground"
+    "Playground",
+    "Frontend"
   ],
   "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
   "license": "MIT",
