@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import App from './App';
+import AppLayout from './components/AppLayout';
+import Gallery from './components/Gallery';
 
 const root = document.getElementById('root')
 
@@ -9,6 +10,6 @@ ReactDOM
     .createRoot(root)
     .render(
         <React.StrictMode>
-            <App />
+            <AppLayout content={<Gallery />} />
         </React.StrictMode>,
     )
