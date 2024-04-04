@@ -9,6 +9,7 @@
   "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "projects/todo-app"
+    "projects/todo-app",
+    "projects/vite-app"
   ]
 }
