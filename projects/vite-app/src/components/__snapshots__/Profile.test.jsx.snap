@@ -6,3 +6,11 @@ exports[`Passing props to the Profile component 1`] = `
   src={[Function]}
 />
 `;
+
+exports[`Using a rounded profile 1`] = `
+<img
+  alt={[Function]}
+  className="rounded-full"
+  src={[Function]}
+/>
+`;
