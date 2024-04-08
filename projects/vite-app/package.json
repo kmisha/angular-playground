@@ -7,7 +7,8 @@
         "build": "vite build",
         "preview": "vite preview",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-        "test": "jest"
+        "test": "jest",
+        "test:update-snapshots": "jest -u"
     },
     "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
     "license": "MIT",

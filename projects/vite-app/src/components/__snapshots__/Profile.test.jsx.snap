@@ -2,15 +2,15 @@
 
 exports[`Passing props to the Profile component 1`] = `
 <img
-  alt={[Function]}
-  src={[Function]}
+  alt="Bradford Champlin"
+  src="https://loremflickr.com/640/480?lock=8981842260656128"
 />
 `;
 
 exports[`Using a rounded profile 1`] = `
 <img
-  alt={[Function]}
+  alt="Lorena White"
   className="rounded-full"
-  src={[Function]}
+  src="https://loremflickr.com/640/480?lock=1667071186305024"
 />
 `;
