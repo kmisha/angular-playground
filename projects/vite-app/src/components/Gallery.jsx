@@ -5,9 +5,7 @@ export default function Gallery() {
         <section>
             <h1>Amazing scientists</h1>
             <div className="flex gap-4">
-                <Profile />
-                <Profile />
-                <Profile />
+                {Array.from({ length: 4 }, (_, idx) => <Profile src={"https://i.imgur.com/MK3eW3As.jpg"} alt={"Katherine Johnson"} id={idx}/>) }
             </div>
         </section>
     );
