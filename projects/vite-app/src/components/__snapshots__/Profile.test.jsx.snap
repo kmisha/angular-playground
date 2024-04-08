@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Passing props to the Profile component 1`] = `
+<img
+  alt={[Function]}
+  src={[Function]}
+/>
+`;
