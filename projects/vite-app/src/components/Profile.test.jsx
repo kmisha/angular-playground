@@ -5,7 +5,7 @@ import Profile from './Profile'
 it('Passing props to the Profile component', () => {
     faker.seed(1);
     const component = renderer.create(
-        <Profile src={faker.image.url()} alt={faker.person.fullName()} id={faker.number.int(100)} />
+        <Profile src={faker.image.url()} alt={faker.person.fullName()} />
     )
     const tree = component.toJSON();
 
@@ -15,7 +15,7 @@ it('Passing props to the Profile component', () => {
 it('Using a rounded profile', () => {
     faker.seed(2);
     const component = renderer.create(
-        <Profile src={faker.image.url()} alt={faker.person.fullName()} id={faker.number.int(100)} isAvatar={true} />
+        <Profile src={faker.image.url()} alt={faker.person.fullName()} isAvatar={true} />
     )
     const tree = component.toJSON();
 
