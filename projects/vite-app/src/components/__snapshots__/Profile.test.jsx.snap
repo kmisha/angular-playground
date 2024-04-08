@@ -3,6 +3,7 @@
 exports[`Passing props to the Profile component 1`] = `
 <img
   alt="Bradford Champlin"
+  className=""
   src="https://loremflickr.com/640/480?lock=8981842260656128"
 />
 `;
