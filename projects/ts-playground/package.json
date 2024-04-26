@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "build": "tsc"
+    "build": "tsc --isolatedDeclarations"
   },
   "devDependencies": {
     "typescript": "^5.5.0-dev.20240425",
