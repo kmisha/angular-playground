@@ -11,7 +11,8 @@
     "license": "MIT",
     "workspaces": [
         "projects/todo-app",
-        "projects/vite-app"
+        "projects/vite-app",
+        "projects/ts-playground"
     ],
     "scripts": {
         "test": "npm run test --workspaces --if-present",
