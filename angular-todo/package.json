@@ -1,0 +1,10 @@
+{
+  "name": "angular-todo",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
+  "license": "MIT",
+  "description": "TODO's management"
+}

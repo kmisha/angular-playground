@@ -8,7 +8,9 @@
     ],
     "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
     "license": "MIT",
-    "workspaces": [],
+    "workspaces": [
+        "angular-todo"
+    ],
     "scripts": {
         "test": "npm run test --workspaces --if-present",
         "lint": "npm run lint --workspaces --if-present"
