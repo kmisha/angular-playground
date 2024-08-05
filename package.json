@@ -1,6 +1,5 @@
 {
     "private": true,
-    "type": "module",
     "description": "Collection of Frontend projects",
     "keywords": [
         "Angular",
@@ -9,11 +8,7 @@
     ],
     "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
     "license": "MIT",
-    "workspaces": [
-        "projects/todo-app",
-        "projects/vite-app",
-        "projects/ts-playground"
-    ],
+    "workspaces": [],
     "scripts": {
         "test": "npm run test --workspaces --if-present",
         "lint": "npm run lint --workspaces --if-present"
