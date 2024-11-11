@@ -1,6 +1,7 @@
 {
   "license": "MIT",
   "workspaces": [
-    "apps/calc-app"
+    "apps/calc-app",
+    "libs/my-react-library"
   ]
 }
