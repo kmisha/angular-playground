@@ -12,11 +12,11 @@ export default defineConfig({
         react(),
         dts({
             rollupTypes: true,
-            tsconfigPath: path.resolve(__dirname, 'tsconfig.lib.json'),
+            tsconfigPath: path.resolve(import.meta.dirname, 'tsconfig.lib.json'),
         })],
     build: {
         lib: {
-            entry: path.resolve(__dirname, 'src/index.ts'),
+            entry: path.resolve(import.meta.dirname, 'src/index.ts'),
             name: 'my-react-lib',
             fileName: 'my-react-lib',
             formats: ['es']
