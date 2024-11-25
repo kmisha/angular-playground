@@ -16,5 +16,6 @@ export default defineConfig({
     },
     build: {
         // cssMinify: 'lightningcss'
-    }
+    },
+    base: '/kmisha/'
 })
