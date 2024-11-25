@@ -1,0 +1,12 @@
+.numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5em;
+
+    padding: 1em;
+}
+
+.zero {
+    order: 10;
+    grid-column: 2;
+}

@@ -9,9 +9,12 @@ export default defineConfig({
         legacy({targets: ['defaults', 'not IE 11']})
     ],
     css: {
-        transformer: 'lightningcss'
+        // transformer: 'lightningcss',
+        modules: {
+            localsConvention: 'camelCaseOnly'
+        },
     },
     build: {
-        cssMinify: 'lightningcss'
+        // cssMinify: 'lightningcss'
     }
 })
