@@ -9,13 +9,10 @@ export default defineConfig({
         legacy({targets: ['defaults', 'not IE 11']})
     ],
     css: {
-        // transformer: 'lightningcss',
-        modules: {
-            localsConvention: 'camelCaseOnly'
-        },
+        transformer: 'lightningcss',
     },
     build: {
-        // cssMinify: 'lightningcss'
+        cssMinify: 'lightningcss'
     },
     base: '/kmisha/'
 })
